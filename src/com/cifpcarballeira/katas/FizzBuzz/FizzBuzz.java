@@ -12,9 +12,10 @@ package com.cifpcarballeira.katas.FizzBuzz;
 public class FizzBuzz {
     
     public String GetFizzBuzz(int i){
+        String num=i+"";
         if(i%3==0 && i%5==0)
             return "FizzBuzz";
-        else if(i%3==0)
+        else if(i%3==0 || num.contains("3"))
             return "Fizz";
         else if(i%5==0)
             return "Buzz";
