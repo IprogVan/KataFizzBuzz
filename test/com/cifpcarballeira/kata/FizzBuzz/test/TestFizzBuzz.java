@@ -25,4 +25,11 @@ public class TestFizzBuzz {
         String resultado=fb.GetFizzBuzz(1);
         assertEquals("1",resultado);
     }
+    
+    @Test
+    public void TestDosDevuelveDos() {
+        FizzBuzz fb=new FizzBuzz();
+        String resultado=fb.GetFizzBuzz(2);
+        assertEquals("2",resultado);
+    }
 }
