@@ -66,4 +66,10 @@ public class TestFizzBuzz {
         String resultado=fb.GetFizzBuzz(52);
         assertEquals("Buzz",resultado);
     }
+    
+    public void contiene3o5devuelveFizzBuzz() {
+        FizzBuzz fb=new FizzBuzz();
+        String resultado=fb.GetFizzBuzz(503);
+        assertEquals("FizzBuzz",resultado);
+    }
 }

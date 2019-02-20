@@ -13,7 +13,7 @@ public class FizzBuzz {
     
     public String GetFizzBuzz(int i){
         String num=i+"";
-        if(i%3==0 && i%5==0)
+        if((i%3==0 || num.contains("3")) && (i%5==0 || num.contains("5")))
             return "FizzBuzz";
         else if(i%3==0 || num.contains("3"))
             return "Fizz";
