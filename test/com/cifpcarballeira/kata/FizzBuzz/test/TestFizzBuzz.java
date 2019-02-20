@@ -32,4 +32,11 @@ public class TestFizzBuzz {
         String resultado=fb.GetFizzBuzz(2);
         assertEquals("2",resultado);
     }
+    
+    @Test
+    public void TestTresDevuelveFizz() {
+        FizzBuzz fb=new FizzBuzz();
+        String resultado=fb.GetFizzBuzz(3);
+        assertEquals("Fizz",resultado);
+    }
 }
