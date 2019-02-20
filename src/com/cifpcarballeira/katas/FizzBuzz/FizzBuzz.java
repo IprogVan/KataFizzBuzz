@@ -17,7 +17,7 @@ public class FizzBuzz {
             return "FizzBuzz";
         else if(i%3==0 || num.contains("3"))
             return "Fizz";
-        else if(i%5==0)
+        else if(i%5==0 || num.contains("5") )
             return "Buzz";
         else
             return ""+i;
