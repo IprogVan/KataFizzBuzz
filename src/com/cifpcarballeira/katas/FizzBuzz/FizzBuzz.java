@@ -23,6 +23,7 @@ public class FizzBuzz {
             return ""+i;
         
         
-        ///dasda
+       
     }
+    public void Nada(){}
 }
