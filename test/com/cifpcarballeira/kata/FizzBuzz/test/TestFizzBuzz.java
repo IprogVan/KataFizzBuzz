@@ -39,4 +39,15 @@ public class TestFizzBuzz {
         String resultado=fb.GetFizzBuzz(3);
         assertEquals("Fizz",resultado);
     }
+    @Test
+    public void CincoTresDevuelveBuzz() {
+        FizzBuzz fb=new FizzBuzz();
+        String resultado=fb.GetFizzBuzz(5);
+        assertEquals("Buzz",resultado);
+    }
+    public void QuinceDevuelveFizzBuzz() {
+        FizzBuzz fb=new FizzBuzz();
+        String resultado=fb.GetFizzBuzz(15);
+        assertEquals("FizzBuzz",resultado);
+    }
 }
